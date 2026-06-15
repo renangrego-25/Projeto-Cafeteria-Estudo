@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <Section>
+    <div class="header">
+        <div>
+            <img class="img-logo" src="Imagens/Logo.png" alt="logo">
+        </div>
+        <div class="nav">
+            <nav class="nav-bar"> 
+                <a href="">ÍNICIO</a>
+                <a href="">CARDÁPIO</a>
+                <a href="">LOCAIS</a>
+            </nav>
+        </div>
+        <div class="icons">
+            <img class="icons-hover1" width="40" height="40" src="https://img.icons8.com/ios-filled/ffffff/motorcycle-delivery-single-box.png" alt="motorcycle-delivery-single-box"/>
+        </div>
+
+        <script>
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('header');
+                // Se a rolagem passar de 100px, adiciona a classe, senão remove
+                // 
+                if (window.scrollY > 100) {
+                    header.classList.add('header-active');
+                } else {
+                     header.classList.remove('header-active');
+                    }
+                });
+        </script>
+    </div>
+    </Section>
+    <section class="start">
+        <div class="text-one">
+            <h1>BEM-VINDO <br> A MELHOR CAFETERIA DE SÃO PAULO</h1>
+            <P>Lorem ipsum dolor <br>sit amet consectetur adipisicing elit.</P>
+            <a class="btn" href="">SABER MAIS</a>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="div-in">
+            <img width="64" height="64" src="https://img.icons8.com/ios-filled/ffffff/espresso-cup.png" alt="espresso-cup"/>
+            <h2>TODOS OS CAFÉS</h2>
+            <P>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.</P>
+            <a class="btn" href="">VER TODOS</a>
+        </div>
+        <div class="div-in">
+            <img width="64" height="64" src="https://img.icons8.com/ios-filled/ffffff/croissant.png" alt="croissant"/>
+            <h2>ACOMPANHAMENTOS</h2>
+            <P>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.</P>
+            <a class="btn" href="">VER TODOS</a>
+        </div>      
+        <div class="div-in">
+            <img width="64" height="64" src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/ffffff/external-donuts-italian-food-icongeek26-glyph-icongeek26.png" alt="external-donuts-italian-food-icongeek26-glyph-icongeek26"/>
+            <h2>NOSSOS DOCES</h2>
+            <P>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.</P>
+            <a class="btn" href="">VER TODOS</a>
+        </div>
+    </section> 
+
+    <section class="sobre">
+        <div class="sobre-1">
+            <h1>SOBRE NÓS</h1>
+            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat officia quidem, perspiciatis sequi recusandae aperiam unde, quibusdam ad dolorem neque repellendus. Omnis magnam facilis, mollitia rem nulla natus maiores recusandae?</P>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloribus rerum eos dicta nam esse id voluptatem aspernatur velit, tempora quaerat. Magnam architecto officia rem vero dicta repellendus esse impedit.</p>
+        </div>
+        <div class="sobre-2">
+            <h2>NOSSO CAFÉ, COM CARINHO</h2>
+            <P>Ver tudo sobre nós!</P>
+            <a class="btn" href="">CONFIRA TUDO</a>
+        </div>
+    </section>
+
+    <h1 ID="cardapio">CARDÁPIO</h1>
+    <section class="cardápio">
+        <div class="Conteiner">
+            <H1>Café com Leite</H1>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+            <p class="price">R$ 14,90</p>
+            <a class="btn" href="">Pedir</a>
+        </div>
+        <div class="Conteiner">
+            <h1>Capuccinno</h1>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+            <p class="price">R$ 19,90</p>
+            <a class="btn" href="">Pedir</a>
+        </div>
+        <div class="Conteiner">
+            <h1>Café Gelado</h1>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+            <p class="price">R$ 19,90</p>
+            <a class="btn" href="">Pedir</a>
+        </div>
+        <div class="Conteiner">
+            <h1>Café Caramelo</h1>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+            <p class="price">R$ 24,90</p>
+            <a class="btn" href="">Pedir</a>
+        </div>
+        <div class="Conteiner">
+            <h1>Café Expresso</h1>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
+            <p class="price">R$ 14,90</p>
+            <a class="btn" href="">Pedir</a>
+        </div>
+    </section>
+
+    <section class="localizacao">
+    <div class="container-loc">
+        <div class="info-texto">
+            <h2>ONDE ESTAMOS</h2>
+            <p><strong>Endereço:</strong> Rua dos Cafezais, 123 - Pinheiros, São Paulo - SP</p>
+            <p><strong>Horários:</strong> Seg a Sáb: 08h às 20h | Dom: 09h às 14h</p>
+            <p><strong>Contato:</strong> (11) 98765-4321</p>
+            <button class="btn-rota">COMO CHEGAR</button>
+        </div>
+        <div class="mapa-placeholder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197330268525!2d-46.66114402373322!3d-23.56134966118679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59d070624f2b%3A0x6734188172c7247d!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+
+<footer class="rodape">
+    <div class="footer-content">
+        <div class="footer-box">
+            <h3>CAFÉ AURORA</h3>
+            <p>A melhor experiência com café artesanal no coração de São Paulo.</p>
+        </div>
+        <div class="footer-box">
+            <h4>LINKS</h4>
+            <a href="#">Início</a>
+            <a href="#">Cardápio</a>
+            <a href="#">Sobre Nós</a>
+        </div>
+        <div class="footer-box">
+            <h4>SOCIAL</h4>
+            <div class="social-icons">
+                <span>Instagram</span>
+                <span>Facebook</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 2026 Café Aurora - Todos os direitos reservados.
+    </div>
+</footer>
+</html>

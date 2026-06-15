@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --color-one:rgb(123, 165, 123);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Imagens/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Cabeçalho*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(123, 165, 123);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    min-height: 120px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.5);
+}
+
+.header:header-active{
+    background-color: white;
+    color: var(--color-one);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.img-logo{
+    padding-left: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.nav{
+    padding-left: 0px;
+    padding-right: 40px;
+    position: static;
+}
+
+.nav-bar a{
+    padding-inline: 30px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    color: white;
+}
+
+.nav-bar a:hover{
+    color: black;
+    transition: linear 0.5s;
+}
+
+.icons{
+    padding-right: 30px;
+}
+
+/*Cabeçalho*/
+
+/*Ínicio*/
+.start{
+    margin-top: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.text-one h1{
+    font-family: "poppins";
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+.text-one p{
+    color: white;
+    font-family: "Open Sans";
+    font-size: 0.9rem;
+    padding-bottom: 40px;
+}
+
+.text-one .btn{
+    font-family: "POPPINS";
+    color: white;
+    background-color: var(--color-one);
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 25px rgb(0, 0, 0, 0.2);
+}
+
+.text-one .btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+/*Ínicio*/
+
+/*div inicial*/
+.cards{
+    display: flex;
+    padding-top: 150px;
+    padding-inline: 100px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.cards .div-in{
+    background-color: var(--color-one);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 15px 25px rgb(0, 0, 0, 0.9);
+}
+
+.cards .div-in h2{
+    font-family: "poppins";
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.cards .div-in p{
+    font-family: "Open Sans";
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.cards .div-in .btn{
+    font-family: "POPPINS";
+    color: var(--color-one);
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+
+.cards .div-in .btn:hover{
+    color: black;
+    transition: 0.5s linear;
+}
+
+/*div inicial*/
+
+/*div sobre nós*/
+ .sobre{
+    background-color:beige;
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 10px 25px rgb(0,0,0,0.8);
+ }
+
+ .sobre-1{
+    max-width: 450px;
+    padding: 50px;
+ }
+
+ .sobre-1 h1{
+    font-family: "Poppins";
+    color: var(--color-one);
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+ }
+
+ .sobre-1 p{
+    font-family: "open sans";
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+ }
+
+ .sobre-2{
+    max-width: 450px;
+    padding-top: 100px;
+ }
+
+ .sobre-2 h2{
+    font-family: "Poppins";
+    color: var(--color-one);
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+ }
+
+ .sobre-2 p{
+    font-family: "open sans";
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+ }
+
+ .sobre-2 .btn{
+    font-family: "POPPINS";
+    color: white;
+    background-color: var(--color-one);
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 25px rgb(0, 0, 0, 0.2);
+ }
+
+ .sobre-2 .btn:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+ }
+
+/*div sobre nós*/
+
+/* Cardápio*/
+#cardapio{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Poppins";
+    color: var(--color-one);
+    font-size: 3rem;
+}
+.cardápio{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+
+.cardápio .Conteiner{
+    text-align: center;
+    align-items: center;
+    background-color: var(--color-one);
+    width: 250px;
+    height: 320px;
+    border-radius: 30px;
+    align-items: center;
+    color: white;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.7);
+}
+
+.cardápio .Conteiner h1{
+    margin-top: 50px;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    margin-top: 20px
+}
+
+.cardápio .Conteiner p{
+    font-family: "Open Sans";
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.cardápio .Conteiner .price{
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.Conteiner .btn{
+    text-decoration: none;
+    color: var(--color-one);
+    text-transform: uppercase;
+    background-color: white;
+    font-family: "Poppins";
+    padding-inline: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* Estilos para a Localização */
+.localizacao {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-loc {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+
+.info-texto {
+    flex: 1;
+    min-width: 300px;
+}
+
+.info-texto h2 {
+    color: #5f8d6d;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+}
+
+.info-texto p {
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-family: "open sans";
+    background-color: var(--color-one);
+    padding-inline: 10px;
+    border-radius: 8px;
+}
+
+.btn-rota {
+    background-color: var(--color-one);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+    font-family: "poppins";
+}
+
+.btn-rota:hover {
+    background-color: #5f8d6d;
+}
+
+.mapa-placeholder {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Estilos para o Rodapé */
+.rodape {
+    background-color: var(--color-one); /* Verde dos cards */
+    color: white;
+    padding: 50px 20px 20px;
+    font-family: "open sans";
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    text-align: center;
+}
+
+.footer-box h3, .footer-box h4 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-box a {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.footer-box a:hover {
+    color: white;
+}
+
+.copyright {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 20px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 768px) {
+    .container-loc {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-texto {
+        text-align: center;
+    }
+}
+/* Cardápio*
