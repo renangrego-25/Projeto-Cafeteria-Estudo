@@ -23,7 +23,8 @@ visual suave e agradável.
 
 #  Demo
 
-.
+Aqui está o modelo de teste no github
+(renangrego-25.github.io/Projeto-Cafeteria-Estudo/)
 
 # Autor
 
